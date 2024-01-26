@@ -1,6 +1,7 @@
 <?php
 // app/Http/Controllers/ForumController.php
 
+// app/Http/Controllers/ForumController.php
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
