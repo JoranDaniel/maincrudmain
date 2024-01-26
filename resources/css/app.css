@@ -1,5 +1,45 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
+.background {
+    background-image: url("https://media.discordapp.net/attachments/1098603596486029313/1200518930154922154/image_1.png?ex=65c67961&is=65b40461&hm=648aa25b90db7d3be4afc1a7b1f64ceb51100bf9f6f663854b049bbeb12e0f74&=&format=webp&quality=lossless&width=1177&height=662");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 1rem;
+}
 
+/* Button Component */
+.btn {
+    padding: 0.5rem 1rem;
+    background-color: #39a728;
+    color: #000000;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+/* Card Component */
+.card {
+    padding: 1rem;
+    background-color: #ffffff;
+    outline: 1px solid #000000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+}
+
+/* Input Component */
+.input {
+    padding: 0.5rem;
+    border: 1px solid #cccccc;
+    border-radius: 0.25rem;
+}
+
+/* Heading Component */
+.heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333333;
+}
