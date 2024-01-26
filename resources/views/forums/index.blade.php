@@ -1,10 +1,10 @@
 <!-- resources/views/forums/index.blade.php -->
-
 @extends('layouts.app')
 
+
+
 @section('content')
-    <div class="container mx-auto mt-8">
-        <h1 class="text-2xl font-bold mb-4 text-gray-800">Forum Index</h1>
+    <div class="background mx-auto mt-8">
 
         @forelse($forums as $forum)
             <div class="bg-white rounded-lg shadow-md p-6 mb-6">
@@ -15,6 +15,6 @@
             <p class="text-gray-800">No forums available.</p>
         @endforelse
 
-        <a href="{{ route('forums.create') }}" class="btn btn-primary">Create a New Forum</a>
+        <a  class="btn" href="{{ route('forums.create') }}">Create a New Forum</a>
     </div>
 @endsection
