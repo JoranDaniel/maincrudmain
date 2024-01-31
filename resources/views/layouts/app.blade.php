@@ -16,8 +16,23 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
+    <style>
+        body {
+            background-image: url('https://cdn.discordapp.com/attachments/973173546396295168/1177597341138694154/image.png?ex=65c6247c&is=65b3af7c&hm=2b8f3f931bb9e53feecc7ea4009d93de414776eecaecfb12867116b67929973b&');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+        }
+
+        .content {
+            text-align: center;
+            color: white; /* Set the text color */
+        }
+    </style>
+    
     <body class="font-sans antialiased">
-        <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
+        <div class="test">
             @include('layouts.navigation')
 
             <!-- Page Heading -->
