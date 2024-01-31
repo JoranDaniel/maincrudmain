@@ -39,6 +39,14 @@
         @endif
 
         <a href="{{ route('merchandise.index') }}" class="btn btn-primary mt-4">Continue Shopping</a>
+        <button class="btn btn-primary mt-4" id="alertButton">Kopen</button>
     </div>
+
+    <script>
+        document.getElementById("alertButton").addEventListener("click", function() {
+            alert("Bestelling geplaatst! u wordt op de hoogte gehouden via uw email.");
+        });
+    </script>
+    
 @endsection
     
