@@ -16,7 +16,7 @@
                         <form method="post" action="{{ route('cart.add', $merchandise) }}">
                             @csrf
                             <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
-                                Add to Caaaart
+                                Add to Caart
                             </button>
                         </form>
                         <a href="{{ route('merchandise.show', $merchandise) }}" class="text-blue-500 dark:text-blue-400 hover:underline ml-2">Details</a>
